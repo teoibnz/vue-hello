@@ -15,7 +15,9 @@
         <h1>{{message}}</h1>  
 
         <div >
-            <div >
+            <div>
+                <h3>Inserisci un URL e visualizza la tua img</h3>
+                <input type="text" v-model="image">
                 <img :src="image" alt="" class="img">
             </div>
         </div>
